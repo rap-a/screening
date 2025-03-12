@@ -4,6 +4,7 @@ MAX_DIMENSION = 150
 MAX_MASS = 20
 
 # Stacks
-STANDARD = "standard"
-SPECIAL = "special"
-REJECTED = "rejected"
+STANDARD = "Standard"
+SPECIAL = "Special"
+REJECTED = "Rejected"
+INVALID = "Invalid"
