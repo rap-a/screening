@@ -10,6 +10,11 @@ Based on these criteria, the package is sorted to one of three stacks:
 Additionally, when any of the properties is sent with an invalid value, that is, less than or equal to 0, the stack is returned as Invalid.
 
 ## Running the code
+### Installing the dependencies
+```bash
+pip install -r requirements.txt
+```
+
 ### Application
 In order to execute the application, run:
 ```bash
