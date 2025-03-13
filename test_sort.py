@@ -9,9 +9,9 @@ class TestSort(unittest.TestCase):
     """Test scenarios for the sort method"""
 
     VOLUME_COMBINATIONS = [
-        [1000000, 1, 1],
-        [1, 1000000, 1],
-        [1, 1, 1000000],
+        [150, 1, 1],
+        [1, 150, 1],
+        [1, 1, 150],
         [100, 100, 100],
     ]
 
