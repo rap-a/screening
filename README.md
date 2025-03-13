@@ -1,7 +1,7 @@
 # Screening
 
 ## Implementation
-The sorting algorithm receives the package's properties and determines if it is bulky, i.e. when the volume is greater than or equal to 1,000,000 cm3 or one of its dimensions are greater than or equal to 150 cm, and heavy, i.e. when its mass is greater than or equal to 20 kg.
+The sorting algorithm receives the package's properties and determines if it is bulky, i.e. when the volume is greater than or equal to 1,000,000 cm3 or one of its dimensions is greater than or equal to 150 cm, and heavy, i.e. when its mass is greater than or equal to 20 kg.
 Based on these criteria, the package is sorted to one of three stacks:
 - Rejected: a bulk and heavy package
 - Special: an either bulky or heavy package
@@ -27,7 +27,7 @@ python main.py -h
 ```
 
 ### Unit test
-The unit tests can be analysed using:
+The unit tests can be run using:
 ```bash
 python -m unittest
 ```
